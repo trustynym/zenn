@@ -32,7 +32,10 @@ published: false
 
 ## MinecraftでのGLSL
 
-「`GLSL`がなぜ`Minecraft`で出現するか」という問いに対して、「`Minecraft`が`OpenGL`で動いているから」という理由は**もう**[^glalreadyno]**正しくありません。** 正確には「**`Minecraft`のリソースパックが受け取るシェーダ言語の形式が`GLSL`だから**」と言えそうです。
+「`GLSL`がなぜ`Minecraft`で出現するか」という問いに対して、「`Minecraft`が`OpenGL`で動いているから」という理由は**もう**[^glalreadyno]**正しくありません。**\
+先に記した通り、`Minecraft`以外の文脈でも、`GLSL`は`OpenGL`に**限定されるものではない**のです。
+
+正確には「**`Minecraft`のリソースパックが受け取るシェーダ言語の形式が`GLSL`だから**」と言えそうです。
 
 今回やろうとしていることは**シェーダの書き換えで実現可能**です。なので、`GLSL`を書くのですね。
 
